@@ -7,5 +7,15 @@
 
 测试查询mysql的用户，
 查询结果，
-可选择控制台输出，
-也可以选择在网页输出。
+
+可以选择写在servletr然后控制台输出
+也可以在网页输出。
+
+记得改动数据库地址和数据库，还有数据库用户密码
+
+ //URL指向要访问的数据库名mydata
+ String url = "jdbc:mysql://127.0.0.1:3306/mysql";
+ //MySQL配置时的用户名
+ String user = "root";
+ //MySQL配置时的密码
+ String password = "密码";

@@ -11,8 +11,9 @@
 可以选择写在servletr然后控制台输出
 也可以在网页输出。
 
-<span color="red">记得改动数据库地址和数据库，还有数据库用户密码</span>
+记得改动数据库地址和数据库，还有数据库用户密码
 
+```java
  //URL指向要访问的数据库名mydata
  
  String url = "jdbc:mysql://127.0.0.1:3306/mysql";
@@ -24,3 +25,4 @@
  //MySQL配置时的密码
  
  String password = "密码";
+ ```

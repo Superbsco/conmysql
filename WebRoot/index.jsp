@@ -17,11 +17,11 @@
     //驱动程序名
     String driver = "com.mysql.jdbc.Driver";
     //URL指向要访问的数据库名mydata
-    String url = "jdbc:mysql://139.199.4.56:3306/mysql";
+    String url = "jdbc:mysql://127.0.0.1:3306/mysql";
     //MySQL配置时的用户名
     String user = "root";
     //MySQL配置时的密码
-    String password = "Aa12345+-";
+    String password = "密码";
     //遍历查询结果集
     try {
         //加载驱动程序
